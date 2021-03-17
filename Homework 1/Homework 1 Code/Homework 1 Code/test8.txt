@@ -1,2 +1,0 @@
-9 1
-therefore 8 0 r CCW
