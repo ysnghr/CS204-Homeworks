@@ -38,9 +38,20 @@ bool checkOrder(string text)
 	// will work only once for just only first word
 	while(wordSelector >> word)
 	{
-		return (word == "A" || word == "D") ? false : true;
+		if (word == "A")
+		{
+			return false;
+		}
+		else if(word == "D")
+		{
+			return false;
+		}
+		else
+		{
+			return true;
+		}
 	}
-	return true;
+	return false;
 }
 
 string getOrderMode()
@@ -259,14 +270,16 @@ node *findStartOfDeletion(string orderMode, node *head, int number)
 	}
 }
 
-// prints linkedlist at the end of the program
+// prints linkedlist at the end of the program and deletes all pointers
 void printLinkedList(node *head)
 {
 	cout << endl << "All the nodes are deleted at the end of the program:";
 	while(head != NULL)
 	{
+		node *ptr = head;
 		cout << " " << head->value;
 		head = head->next;
+		delete ptr;
 	}
 	cout << endl;
 }
