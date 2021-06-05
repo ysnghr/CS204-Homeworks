@@ -1,20 +1,20 @@
-﻿Build started 3/9/2021 3:33:59 PM.
-     1>Project "C:\Users\Acer\Desktop\CS204\Homework 1\Homework 1 Code\Homework 1 Code\Homework 1 Code.vcxproj" on node 2 (Build target(s)).
+﻿Build started 6/5/2021 4:02:03 PM.
+     1>Project "C:\Users\Acer\Desktop\CS204\Homework 1\Homework 1 Code\Homework 1 Code.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
          Source.cpp
-     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\homework 1 code\source.cpp(63): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\homework 1 code\source.cpp(65): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\homework 1 code\source.cpp(159): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\homework 1 code\source.cpp(205): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\homework 1 code\source.cpp(226): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\homework 1 code\source.cpp(268): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\homework 1 code\source.cpp(166): warning C4715: 'getIndexVector' : not all control paths return a value
+     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\source.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\source.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\source.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\source.cpp(209): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\source.cpp(230): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\source.cpp(272): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\acer\desktop\cs204\homework 1\homework 1 code\source.cpp(170): warning C4715: 'getIndexVector' : not all control paths return a value
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Acer\Desktop\CS204\Homework 1\Homework 1 Code\Debug\Homework 1 Code.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Acer\Desktop\CS204\Homework 1\Homework 1 Code\Debug\Homework 1 Code.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Acer\Desktop\CS204\Homework 1\Homework 1 Code\Debug\Homework 1 Code.lib" /MACHINE:X86 Debug\Source.obj
          Homework 1 Code.vcxproj -> C:\Users\Acer\Desktop\CS204\Homework 1\Homework 1 Code\Debug\Homework 1 Code.exe
-     1>Done Building Project "C:\Users\Acer\Desktop\CS204\Homework 1\Homework 1 Code\Homework 1 Code\Homework 1 Code.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\Acer\Desktop\CS204\Homework 1\Homework 1 Code\Homework 1 Code.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.50
+Time Elapsed 00:00:01.71
